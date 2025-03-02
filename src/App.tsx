@@ -763,6 +763,11 @@ AI (to user): "It's 30°C and partly cloudy in Singapore today."`}
                 It didn't make me obsolete; it made me think differently.
               </p>
               <p className="text-sm">— Senior Engineer after one month of AI pair programming</p>
+              <p className="text-xs text-blue-200 mt-1">
+                <a href="https://dev.to/arpitstack/i-spent-30-days-pair-programming-with-ai-heres-what-it-taught-me-4dal" target="_blank" rel="noopener noreferrer" className="hover:underline flex items-center">
+                  Source <ArrowUpRight size={12} className="ml-1" />
+                </a>
+              </p>
               <div className="absolute bottom-0 left-0 m-2 text-4xl text-white opacity-30">"</div>
             </div>
             
