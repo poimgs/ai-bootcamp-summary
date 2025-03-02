@@ -612,6 +612,7 @@ AI (to user): "It's 30°C and partly cloudy in Singapore today."`}
             
             <div>
               <h3 className="text-2xl font-bold mb-4 text-gray-800">AI Modalities</h3>
+              <p className="text-gray-600 italic mt-2 mb-4">Note: These are just some sample modalities. More AI modalities and examples will be added in the future.</p>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                 <div className="bg-white shadow rounded-lg overflow-hidden border border-gray-200">
                   <div className="bg-blue-600 text-white p-4 font-bold">Text-to-Text</div>
@@ -624,7 +625,6 @@ AI (to user): "It's 30°C and partly cloudy in Singapore today."`}
                       <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">GPT-4</span>
                       <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">Claude</span>
                       <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">LLaMA</span>
-                      <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded text-xs">Codex</span>
                     </div>
                   </div>
                 </div>
@@ -639,7 +639,6 @@ AI (to user): "It's 30°C and partly cloudy in Singapore today."`}
                     <div className="flex flex-wrap gap-2">
                       <span className="px-2 py-1 bg-purple-100 text-purple-800 rounded text-xs">DALL-E</span>
                       <span className="px-2 py-1 bg-purple-100 text-purple-800 rounded text-xs">Midjourney</span>
-                      <span className="px-2 py-1 bg-purple-100 text-purple-800 rounded text-xs">Stable Diffusion</span>
                     </div>
                   </div>
                 </div>
@@ -653,8 +652,6 @@ AI (to user): "It's 30°C and partly cloudy in Singapore today."`}
                     <p className="text-gray-600 text-sm mb-2 font-medium">Examples:</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">ElevenLabs</span>
-                      <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">WaveNet</span>
-                      <span className="px-2 py-1 bg-green-100 text-green-800 rounded text-xs">Amazon Polly</span>
                     </div>
                   </div>
                 </div>
@@ -668,27 +665,6 @@ AI (to user): "It's 30°C and partly cloudy in Singapore today."`}
                     <p className="text-gray-600 text-sm mb-2 font-medium">Examples:</p>
                     <div className="flex flex-wrap gap-2">
                       <span className="px-2 py-1 bg-amber-100 text-amber-800 rounded text-xs">Whisper</span>
-                      <span className="px-2 py-1 bg-amber-100 text-amber-800 rounded text-xs">Google Speech-to-Text</span>
-                      <span className="px-2 py-1 bg-amber-100 text-amber-800 rounded text-xs">DeepSpeech</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              
-              <div className="bg-white shadow rounded-lg overflow-hidden border border-gray-200 mb-6">
-                <div className="bg-indigo-600 text-white p-4 font-bold">Multi-modal Models</div>
-                <div className="p-4">
-                  <p className="text-gray-700 mb-4">
-                    These advanced models can handle multiple types of input and output, combining capabilities like understanding images and text together.
-                  </p>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <div className="bg-indigo-50 p-3 rounded">
-                      <p className="font-medium text-indigo-800 mb-1">GPT-4 Vision</p>
-                      <p className="text-sm text-gray-700">Analyzes images and text together, can describe images or answer questions about visual content.</p>
-                    </div>
-                    <div className="bg-indigo-50 p-3 rounded">
-                      <p className="font-medium text-indigo-800 mb-1">VALL-E</p>
-                      <p className="text-sm text-gray-700">Voice cloning that can replicate a speaker's voice from a short audio sample.</p>
                     </div>
                   </div>
                 </div>
